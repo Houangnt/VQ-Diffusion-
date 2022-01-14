@@ -1,14 +1,14 @@
 # VQ-Diffusion-
-Text-To-Image
-#Data Preparing
-Microsoft COCO
-│MSCOCO_Caption/
-├──annotations/
-│  ├── captions_train2014.json
-│  ├── captions_val2014.json
-├──train2014/
-│  ├── train2014/
-│  │   ├── COCO_train2014_000000000009.jpg
+Text-To-Image <br />
+#Data Preparing <br />
+Microsoft COCO <br />
+│MSCOCO_Caption/ <br />
+├──annotations/ <br />
+│  ├── captions_train2014.json <br />
+│  ├── captions_val2014.json <br />
+├──train2014/ <br />
+│  ├── train2014/ <br />
+│  │   ├── COCO_train2014_000000000009.jpg <br />
 │  │   ├── ......
 ├──val2014/
 │  ├── val2014/
