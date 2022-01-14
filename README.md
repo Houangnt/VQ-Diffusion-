@@ -48,11 +48,15 @@ Train Text2Image generation on MSCOCO dataset: <br />
 python running_command/run_train_coco.py <br />
 Train Text2Image generation on CUB200 dataset: <br />
 python running_command/run_train_cub.py <br />
-
-#cite VQ-Diffusion 
-@article{gu2021vector,
-  title={Vector Quantized Diffusion Model for Text-to-Image Synthesis},
-  author={Gu, Shuyang and Chen, Dong and Bao, Jianmin and Wen, Fang and Zhang, Bo and Chen, Dongdong and Yuan, Lu and Guo, Baining},
-  journal={arXiv preprint arXiv:2111.14822},
-  year={2021}
-}
+#Inference 
+from inference_VQ_Diffusion import VQ_Diffusion < br /> 
+VQ_Diffusion_model = VQ_Diffusion(config='OUTPUT/pretrained_model/config_text.yaml', path='OUTPUT/pretrained_model/coco_pretrained.pth') <br />
+VQ_Diffusion_model.inference_generate_sample_with_condition("a beautiful woman",truncation_rate=0.85, save_root="RESULT",batch_size=4)  <br />
+VQ_Diffusion_model.inference_generate_sample_with_condition("a young girl in blue skirt",truncation_rate=0.85, save_root="RESULT",batch_size=4,fast=2) # for fast inference <br />
+#cite VQ-Diffusion <br />
+article{gu2021vector, <br />
+  title={Vector Quantized Diffusion Model for Text-to-Image Synthesis}, <br />
+  author={Gu, Shuyang and Chen, Dong and Bao, Jianmin and Wen, Fang and Zhang, Bo and Chen, Dongdong and Yuan, Lu and Guo, Baining}, <br />
+  journal={arXiv preprint arXiv:2111.14822}, <br />
+  year={2021} <br />
+} <br />
