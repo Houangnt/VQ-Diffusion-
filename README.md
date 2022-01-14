@@ -52,7 +52,7 @@ my file weight after train model on LAION-Human Dataset : https://drive.google.c
 <br />
 <br />
 # Training 
-First, change the data_root to correct path in configs/coco.yaml or other configs. <br />
+First, change the data_root to correct path in configs/coco.yaml or other configs <br />
 Train Text2Image generation on MSCOCO dataset: <br />
 python running_command/run_train_coco.py <br />
 Train Text2Image generation on CUB200 dataset: <br />
