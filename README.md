@@ -39,9 +39,12 @@ CUB-200 <br />
 # Result after train model on MSCOCO_Dataset<br />
 
 Some Pretrain model support for train model <br />
++ with coco dataset: <br />
 Openimages: https://drive.google.com/uc?id=1HAl78FcWlZdzqj8CHrA8DNf14XSzvNy6  <br />
 CLIP: https://drive.google.com/uc?id=1qhdlE0l8hkKsakqfHotQueXuTx3sVbPV  <br />
 after download 2 file weight above, set path link to 2 file pretrain Openimages, CLIP in file coco.yaml  <br />
++ with FFHQ dataset: <br /> 
+FFHQ: https://drive.google.com/file/d/1MW3N77SEIlcELJs855YKHu0Xive7AXso/view?usp=sharing
 File weight after train model on LAION-Human Dataset : https://drive.google.com/file/d/12py7Zx3JdMjcoRQRx3bxqA-NkMGLM55o/view?usp=sharing
 <br />
 <br />
