@@ -40,6 +40,7 @@ Some Pretrain model support for train model <br />
 Openimages: https://drive.google.com/uc?id=1HAl78FcWlZdzqj8CHrA8DNf14XSzvNy6  <br />
 CLIP: https://drive.google.com/uc?id=1qhdlE0l8hkKsakqfHotQueXuTx3sVbPV  <br />
 after download 2 file weight above, set path link to 2 file pretrain Openimages, CLIP in file coco.yaml  <br />
+File weight after train model on LAION-Human Dataset : https://drive.google.com/file/d/12py7Zx3JdMjcoRQRx3bxqA-NkMGLM55o/view?usp=sharing
 <br />
 <br />
 # Training 
