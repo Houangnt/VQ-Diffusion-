@@ -36,7 +36,7 @@ CUB-200 <br />
 <br />
 # Result after train model on MSCOCO_Dataset<br />
 
-# Some Pretrain model support for train model <br />
+Some Pretrain model support for train model <br />
 Openimages: https://drive.google.com/uc?id=1HAl78FcWlZdzqj8CHrA8DNf14XSzvNy6  <br />
 CLIP: https://drive.google.com/uc?id=1qhdlE0l8hkKsakqfHotQueXuTx3sVbPV  <br />
 after download 2 file weight above, set path link to 2 file pretrain Openimages, CLIP in file coco.yaml  <br />
