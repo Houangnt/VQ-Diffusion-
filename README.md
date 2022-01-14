@@ -2,6 +2,7 @@
 Text-To-Image <br />
 <br />
 # Run on Google Colab 
+Some result and config on link google colab
 https://colab.research.google.com/drive/1fStmlSZh8FFTFBAuA_7KVObK6E4jnIkn?usp=sharing
 # Data Preparing <br />
 Microsoft COCO <br />
