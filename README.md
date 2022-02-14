@@ -37,7 +37,7 @@ CUB-200 <br />
 │  ├── filenames.pickle <br />
 <br />
 <br />
-# Result after train model on MSCOCO_Dataset<br />
+# Result after train model on MSCOCO_Dataset
 
 
 Some Pretrain model support for train model <br />
